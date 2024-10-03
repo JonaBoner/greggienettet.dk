@@ -34,3 +34,9 @@ li {
 a:link, a:visited {
     color: rgb(255, 255, 255);
 }
+
+.centered {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
