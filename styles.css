@@ -24,6 +24,10 @@ i {
 h4 {
     color: rgb(255, 255, 255);
 }
+h5 {
+    color: rgb(255, 255, 255);
+    text-align:center;
+}
 li {
     color: rgb(255, 255, 255);
 }
