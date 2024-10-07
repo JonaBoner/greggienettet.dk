@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(54, 87, 255);
-    color: saddleBrown;
+    background: repeating-linear-gradient(45deg, rgb(5,0,87) 0%, rgb(14,14,149) 35%, rgb(0,212,255) 100%);
+    color: white;
     font-family: Verdana, Geneva, sans-serif;
     margin-left: 20px;
 }
@@ -11,7 +11,7 @@ h1 {
 text-align:center;
 }
 h3 {
-    background-color: rgb(36, 62, 191);
+        background: repeating-linear-gradient(45deg, rgba(0,212,255, 0.5) 0%, rgba(14,14,149, 0.5) 65%, rgba(5,0,87, 0.5) 100%);
     color: ghostwhite;
     text-align:center;
 }
@@ -32,11 +32,16 @@ li {
     color: rgb(255, 255, 255);
 }
 a:link, a:visited {
-    color: rgb(255, 255, 255);
+    color: rgb(189, 237, 255);
 }
 
 .centered {
     width: 100vw;
     display: flex;
     justify-content: center;
+}
+html,body {
+    min-height:100%;
+    margin:0%;
+    padding:0%;
 }
