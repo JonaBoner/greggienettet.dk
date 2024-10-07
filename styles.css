@@ -45,3 +45,6 @@ html,body {
     margin:0%;
     padding:0%;
 }
+.shadow {
+    box-shadow: 5px, 5px;
+}
